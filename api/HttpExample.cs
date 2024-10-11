@@ -18,7 +18,7 @@ namespace api
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            return new OkObjectResult("Welcome to Azure Functions on dotnet-isolated 9! Another change!");
+            return new OkObjectResult("Welcome to Azure Functions on dotnet-isolated 8! Pushing change to msftinthk1!");
         }
     }
 }
